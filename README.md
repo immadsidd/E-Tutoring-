@@ -37,34 +37,34 @@ Tutor are permitted to add a course view  and manipulate its content such as add
 ## Views:
 
 ### Admin:
-•	Admin can accept/rejects courses.
-•	Admin provides help to students and teachers.
+•	Admin can accept/rejects courses.<br />
+•	Admin provides help to students and teachers.<br />
 •	Admin can create categories.
 
 ### Student:
-•	Student can enrolls in courses.
-•	A student does payment for courses.
-•	Student can view the courses.
-•	Student receives certificate.
-•	Student take quizzes.
-•	Student writes feedbacks to teacher.
-•	Student can contact the help desk.
-•	Student can download lectures.
+•	Student can enrolls in courses.<br />
+•	A student does payment for courses.<br />
+•	Student can view the courses.<br />
+•	Student receives certificate.<br />
+•	Student take quizzes.<br />
+•	Student writes feedbacks to teacher.<br />
+•	Student can contact the help desk.<br />
+•	Student can download lectures.<br />
 •	Student can view their graded assignment.
 
 ### Teacher:
-•	Teacher can create courses.
-•	Teacher can update the course.
-•	Teacher can create/update contents.
-•	Teacher can view feedback provided by students.
-•	Teacher can contact the help desk.
+•	Teacher can create courses.<br />
+•	Teacher can update the course.<br />
+•	Teacher can create/update contents.<br />
+•	Teacher can view feedback provided by students.<br />
+•	Teacher can contact the help desk.<br />
 •	Teacher can update their profile.
 
 
 ### LIMITATION:
-The limitation of our website are as follows:
-•	Payment gateway is yet to be integrated in our system so that transactions can be made.
-•	No financial aid, discounts or scholarship program is included student needs to purchase whole course on original price.
+The limitation of our website are as follows:<br />
+•	Payment gateway is yet to be integrated in our system so that transactions can be made.<br />
+•	No financial aid, discounts or scholarship program is included student needs to purchase whole course on original price.<br />
 •	No platform for live interaction of students with tutors.
 •	Not responsive.
 
