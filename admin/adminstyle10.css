@@ -1,0 +1,254 @@
+.navbar-brand{
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+
+
+}
+
+.header{
+    position: relative;
+   margin-bottom: 50px;
+   background-color: #0CAAA5;
+   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar-nav a{
+    font-size:20px;
+    width: 185px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 8px 15px black;
+}
+.navbar-nav a:hover{
+    background-color:#A0C7CE;
+    color: white;
+}
+.cc{
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+    background-color: #0CAAA5;
+}
+.table{
+    border: 5px solid white;
+    width: 80%;
+    margin: auto;
+    background-color: #A0C7CE;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+}
+.dash{ 
+    width:80%;
+    gap: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+  
+}
+
+.d1, .d2 ,.d3, .d4{
+    border-radius: 100%;
+    width: 300px;
+    height: 250px;
+    background-color: #0CAAA5;
+    border: 2px solid white;
+    text-align: center;
+    padding: 30px;
+    color:white ;
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.9);
+}
+ .d1 .h1, .d2 .h1, .d3 .h1, .d4 .h1 {
+    margin-bottom: 30px;
+}
+.d1 button, .d2 button, .d3 button, .d4 button{
+    margin-top: 20px;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 50px 50px 100px 100px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cc1{
+    width: 50%;
+    margin: auto;
+}
+
+.uss button{
+    background-color:#A0C7CE;
+    border: black 2px solid;
+    font-size: 18px;
+    height: 35px;
+    width: 110px;
+    margin: -30px 20px 0px 20px;
+}
+.button1{ position: absolute;
+    background-color:#A0C7CE;
+    border: black 2px solid;
+    font-size: 18px;
+    height: 35px;
+    width: 110px;
+    margin-left: 1405px;
+    margin-top: -40px;
+}
+.uss{
+    position: absolute;
+    left: 75%;
+    display: flex;
+    gap: 20px;
+}
+
+.us{
+    margin-top: 5px;
+    font-size: 25px;
+    text-shadow: 0px 8px 15px black;
+}
+
+.fea{
+  width: 30%;
+  margin: auto;
+}
+
+.example1{
+    width: 500px;
+    height: 300px;
+    background-color: #0CAAA5;
+    padding: 40px;
+}
+#save{
+    display: none;
+}
+
+.example1 label{
+  width: 150px;
+  font-weight: bold;
+}
+
+.example1 input[type=text]{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* checkout */
+.wrapper {
+    background-color: #fff;
+    width: 80%;
+    padding: 25px;
+    margin: 25px auto 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+
+.wrapper h4 {
+    padding-bottom: 5px;
+    color: #0CAAA5;
+}
+
+.input_group {
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input_box {
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+
+
+.input_box .name {
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid #0003;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+
+
+
+
+.input_box label {
+    width: 50%;
+    padding: 13px;
+    background-color: #fcfcfc;
+    display: inline-block;
+
+    text-align: center;
+    border: 1px solid #c0bfbf;
+}
+
+
+
+
+
+.bbbb{
+display: flex;
+gap: 80px;
+}
+
+.inb {
+    margin-left: 41%;
+    width:200px;
+    background-color: #0CAAA5;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-right: 4px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.inbb{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width:200px;
+    background-color: #0CAAA5;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-right: 4px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.inb:hover , .inbb:hover{
+    cursor: pointer;
+    background-color: #05b1a3;
+}
+
+/* checkout end */
+
+
+#tt1{
+    display: none;
+}
+
+#tt2{
+    display: none;
+}
