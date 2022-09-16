@@ -65,7 +65,7 @@ Tutor are permitted to add a course view  and manipulate its content such as add
 The limitation of our website are as follows:<br />
 •	Payment gateway is yet to be integrated in our system so that transactions can be made.<br />
 •	No financial aid, discounts or scholarship program is included student needs to purchase whole course on original price.<br />
-•	No platform for live interaction of students with tutors.
+•	No platform for live interaction of students with tutors.<br />
 •	Not responsive.
 
 
