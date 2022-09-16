@@ -1,0 +1,265 @@
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.content1{
+    font-family: 'Cormorant SC', serif;
+    font-size: 40px;
+}
+
+h2, h5{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+.box{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    margin-bottom: 30px;
+}
+.fb{
+    width: 500px;
+    margin-left: 230px;
+}
+.adform{
+    background-color: #fff;
+    width: 40%;
+    padding: 25px;
+    margin: 25px auto 0;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.close{
+    position: absolute;
+    left: 63%;
+}
+.inb{
+    width:150px;
+    margin-right: 20px;
+    background-color: #0CAAA5;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-right: 4px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+#uStubtn{
+    display: none;
+}
+.adform input[type=text],input[type=email],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.img{
+    margin-right: 20px;   
+    border-radius: 50%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.us{
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 8px 15px black;
+}
+.a{
+    margin-top: 5%;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.header{
+    position: relative;
+   margin-bottom: 50px;
+   background-color: #0CAAA5;
+}
+.navbar-nav a{
+    font-size:20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 8px 15px black;
+}
+.navbar-nav a:hover{
+    background-color:#A0C7CE;
+    color: white;
+}
+
+.cview, .cc1{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 80px;
+
+}
+
+.coursepic{
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+}
+ 
+.courseb1{
+    float: right;
+}
+.ch2, .cp{
+
+    width: 700px;
+}
+.cp{
+    height: 100px;
+    font-size: 14px;
+    text-align: justify;
+}
+.cb1{
+    margin-left: 550px;
+    width: 160px;
+    height: 40px;
+    background-color: #0CAAA5;
+    color:#ffff;
+    border:none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+hr{
+    margin: auto;
+    margin-bottom: 100px;
+    width: 60%;
+    height: 2px;
+    background-color: black;
+}
+
+.c{
+    float: right;
+    font-size: 18px;
+    color: gray;
+}
+
+.content1{
+    margin: 50px 0px 20px 50px;
+}
+
+.conb1{
+    margin: 10px 0px 0px 50px;
+    display: block;
+    width: 350px;
+    height: 40px;
+    background-color: #A0C7CE;
+    color: black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 18px;
+}
+
+#videoarea{
+    width: 800px;
+    height: 450px;
+}
+.flex {
+    display: flex;
+    gap: 150px;
+    display: none;
+}
+
+.flex1{
+    display: flex;
+    gap: 150px;
+}
+
+.bb{
+    margin-left: 50px;
+    width: 170px;
+    height: 50px;;
+    margin-bottom: 10px;
+    background-color: #0CAAA5;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.bar1{
+    width: 100%;
+    height: 70px;
+    background-color: #0CAAA5;
+}
+.bar1 button{
+    margin: 15px 0px 0px 50px;
+    height: 40px;
+    width: 200px;
+    background-color: #0CAAA5;
+    border: none;
+    color: white;
+    text-shadow: 0px 8px 15px black;
+    font-size: 20px;
+}
+.bar1 button:hover{
+    background-color: #A0C7CE;
+
+}
+
+#l2 , #l3 ,#l4{
+    display: none;
+}
+button[type=submit] {
+    background-color: #0CAAA5;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+  }
+
+  #theform1{
+    display: none;
+  }
+  #theform{
+    display: none;
+  }
+  
+#q2{
+    display: none;
+}
+
+
+.table{
+    border: 5px solid white;
+    width: 80%;
+    margin: auto;
+    background-color: #A0C7CE;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+    margin-left:150%;
+    margin-top: -50px;
+}
+
+.contentp{
+    width: 350px;
+    min-height: 120px;
+    margin-left: 50;
+    padding: 20px;
+    text-align: justify;
+
+    font-size: small;
+}

@@ -1,0 +1,230 @@
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.box{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    margin-bottom: 30px;
+}
+.fb{
+    padding:30px; 
+    width:60%; 
+    margin:auto; 
+    background-color: #A0C7CE;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+}
+.adform{
+    width: 70%;
+    margin: auto;
+
+}
+.adform input[type=text],input[type=email],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .img{
+    margin-right: 20px;   
+    border-radius: 50%;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.us{
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 8px 15px black;
+}
+.header{
+    position: relative;
+   margin-bottom: 50px;
+   background-color: #0CAAA5;
+}
+.navbar-nav a{
+    font-size:20px;
+    width: 188px;
+    text-align: center;
+    text-shadow: 0px 8px 15px black;
+    color: white;
+}
+.navbar-nav a:hover{
+    background-color:#A0C7CE;
+    color: white;
+}
+.table{
+    border: 5px solid white;
+    width: 80%;
+    margin: auto;
+    background-color: #A0C7CE;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+}
+button[type=submit] {
+    background-color: #0CAAA5;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.cc{
+    font-size: 22px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+    background-color: #0CAAA5;
+}
+
+/* chelpdesk */
+.wrapper {
+    background-color: #fff;
+    width: 65%;
+    padding: 25px;
+    margin: 25px auto 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+select::selection{
+	background-color: red;
+    color: white;
+}
+.wrapper h4 {
+    padding-bottom: 5px;
+    color: #0CAAA5;
+}
+
+.input_group {
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input_box {
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+
+
+.input_box .name {
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid #0003;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+
+
+
+
+.input_box label {
+    width: 50%;
+    padding: 13px;
+    background-color: #fcfcfc;
+    display: inline-block;
+
+    text-align: center;
+    border: 1px solid #c0bfbf;
+}
+
+
+
+
+
+.bbbb{
+display: flex;
+gap: 80px;
+}
+
+.inb {
+    margin-left: 41%;
+    width:200px;
+    background-color: #0CAAA5;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-right: 4px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.inb:hover {
+    cursor: pointer;
+    background-color: #05b1a3;
+}
+
+/* helpdesk end */
+
+#de{
+    float: right;
+}
+.tform{
+    background-color: #fff;
+    width: 45%;
+    min-height: 750px;
+    padding: 25px;
+    margin: 25px auto 0;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.close{
+    position: absolute;
+    left: 63%;
+}
+.inb{
+    width:150px;
+    margin-right: 20px;
+    background-color: #0CAAA5;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-right: 4px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+#uStubtn{
+    display: none;
+}
+.tform input[type=text],input[type=email],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
