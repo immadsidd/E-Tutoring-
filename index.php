@@ -1,8 +1,8 @@
 <?php
-// create connection
-$con = mysqli_init();
+
+$conn = mysqli_init();
+mysqli_ssl_set($conn,NULL,NULL, "{path to CA cert}", NULL, NULL);
 mysqli_real_connect($conn, "dbd.mysql.database.azure.com", "Immad", "ETutoring123!", "e_tutoring", 3306, MYSQLI_CLIENT_SSL);
-// $conn = new mysqli($host, $username, $password, $name);
 
 ?>
 <?php
