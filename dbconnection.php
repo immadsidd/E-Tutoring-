@@ -1,7 +1,7 @@
 <?php
-$db_host = "localhost";
-$db_username = "root";
-$db_password = "";
+$db_host = "dbd.mysql.database.azure.com";
+$db_username = "Immad";
+$db_password = "ETutoring123!";
 $db_name = "e_tutoring";
 
 // create connection
