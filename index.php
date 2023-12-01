@@ -1,6 +1,22 @@
 <?php
+$db_host = "dbd.mysql.database.azure.com";
+$db_username = "Immad";
+$db_password = "ETutoring123!";
+$db_name = "e_tutoring";
+
+// create connection
+$conn = new mysqli($db_host,$db_username,$db_password,$db_name);
+
+
+//check connection
+
+if($conn-> connect_error){
+    die("connection failed");
+}
+
+?>
+<?php
 include('header.php');
-include('dbconnection.php');
 ?>
     <div class="bgpic">
       <img src="bg.jpeg">
