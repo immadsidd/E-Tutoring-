@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-include('dbconnection.php');
+// include('dbconnection.php');
 ?>
     <div class="bgpic">
       <img src="bg.jpeg">
