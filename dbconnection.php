@@ -1,4 +1,4 @@
-<?php
+
 $db_host = "dbd.mysql.database.azure.com";
 $db_username = "Immad";
 $db_password = "ETutoring123!";
@@ -14,4 +14,4 @@ if($conn-> connect_error){
     die("connection failed");
 }
 
-?>
+
