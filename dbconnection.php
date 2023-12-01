@@ -5,13 +5,17 @@ $db_password = "ETutoring123!";
 $db_name = "e_tutoring";
 
 // create connection
-$conn = new mysqli($db_host, $db_username, $db_password, $db_name, 3306, MYSQLI_CLIENT_SSL);
+$conn = mysqli_init();
+mysqli_real_connect($db_host, $db_username, $db_password, $db_name, 3306, MYSQLI_CLIENT_SSL);
+if (mysqli_connect_errno($conn)){
+     die("connection failed");
+}
 
 
 //check connection
 
-if($conn-> connect_error){
-    die("connection failed");
-}
-?>
+// if($conn-> connect_error){
+//     die("connection failed");
+// }
+// ?>
 
