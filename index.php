@@ -1,11 +1,6 @@
 <?php
-$host = "dbd.mysql.database.azure.com";
-$username = "Immad";
-$password = "ETutoring123!";
-$name = "e_tutoring";
-
 // create connection
-$conn = mysqli_init();
+$con = mysqli_init();
 mysqli_real_connect($conn, "dbd.mysql.database.azure.com", "Immad", "ETutoring123!", "e_tutoring", 3306, MYSQLI_CLIENT_SSL);
 // $conn = new mysqli($host, $username, $password, $name);
 
