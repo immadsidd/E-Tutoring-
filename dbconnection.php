@@ -1,7 +1,7 @@
 <?php
 define("DB_SERVER", "dbd.mysql.database.azure.com");
-define("DB_USERNAME", "Immad");
-define("DB_PASSWORD", "ETutoring123!");
+define("DB_USERNAME", "uijwwyfcka");
+define("DB_PASSWORD", "A5FQW24IXEB05688$");
 define("DB_NAME", "e_tutoring");
 
 # Connection
