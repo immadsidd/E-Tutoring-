@@ -5,7 +5,7 @@ $db_password = "ETutoring123!";
 $db_name = "e_tutoring";
 
 // create connection
-$conn = new mysqli($db_host,$db_username,$db_password,$db_name);
+$conn = new mysqli($db_host, $db_username, $db_password, $db_name);
 
 
 //check connection
