@@ -1,5 +1,5 @@
 <?php
-include('dbconnection.php');
+require_once "./config.php";
 include('header.php');
 ?>
     <div class="bgpic">
