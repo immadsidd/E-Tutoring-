@@ -1,11 +1,11 @@
 <?php
-$db_host = "dbd.mysql.database.azure.com";
-$db_username = "Immad";
-$db_password = "ETutoring123!";
-$db_name = "e_tutoring";
+$host = "dbd.mysql.database.azure.com";
+$username = "Immad";
+$password = "ETutoring123!";
+$name = "e_tutoring";
 
 // create connection
-$conn = new mysqli($db_host,$db_username,$db_password,$db_name);
+$conn = new mysqli($host, $username, $password, $name);
 
 
 //check connection
