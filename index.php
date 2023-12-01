@@ -1,11 +1,7 @@
-
 <?php
 include('dbconnection.php');
 include('header.php');
 ?>
-
-
-
     <div class="bgpic">
       <img src="bg.jpeg">
     </div>
