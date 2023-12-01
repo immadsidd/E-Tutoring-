@@ -1,16 +1,17 @@
 <?php
-define("DB_SERVER", "dbd.mysql.database.azure.com");
-define("DB_USERNAME", "Immad");
-define("DB_PASSWORD", "ETutoring123!");
-define("DB_NAME", "e_tutoring");
+$db_host = "dbd.mysql.database.azure.com";
+$db_username = "Immad";
+$db_password = "ETutoring123!";
+$db_name = "e_tutoring";
 
-# Connection
-$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+// create connection
+$conn = new mysqli($db_host,$db_username,$db_password,$db_name);
 
-# Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
+
+//check connection
+
+if($conn-> connect_error){
+    die("connection failed");
 }
 
-mysqli_close($conn);
-
+?>
